@@ -139,4 +139,41 @@ hr {
   margin: 20px 0;
   border: none;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+footer {
+    text-align: center;
+    padding: 20px 10px;
+    backdrop-filter: blur(2px);
+     position: absolute;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(0,0,0,0.6);
+    /* border-top: 1px solid #2f9dff; */
+    margin-top: 870px;
+}
+
+footer span {
+    color: #2f9dff;
+    font-weight: bold;
+}
+
+footer a {
+    color: #2f9dff;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 8px;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #1c6db2;
+    text-decoration: underline;
+}
+
+footer i {
+    margin-right: 6px;
+    font-size: 18px;
 }
