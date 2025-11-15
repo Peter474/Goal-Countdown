@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Goal Countdown</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="target.png">
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 Goal Countdown</h1>
+    <p>Stay consistent , Your future self will thank you.</p>
+
+    <div class="goal-form">
+      <label>Goal Name:</label>
+      <input type="text" id="goalName" placeholder="e.g. Fitness Challenge" />
+
+      <label>Start Date:</label>
+      <input type="datetime-local" id="startDate" />
+
+      <label>Target (Days):</label>
+      <input type="number" id="targetDays" placeholder="e.g. 90" />
+
+      <label>Message on Finish:</label>
+      <textarea id="finishMessage" placeholder="Write your message..."></textarea>
+
+      <button id="addGoalBtn">Add Goal</button>
+    </div>
+
+    <hr />
+
+    <div id="goalsContainer" class="goals-container">
+      <h2>Your Goals</h2>
+      <div id="goalsList"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
